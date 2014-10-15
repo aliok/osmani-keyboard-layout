@@ -29,9 +29,9 @@ It mimics the latin-based Turkish Q keyboard layout for Windows.
 ## Development
 
 Load the layout on Microsoft Keyboard Layout Creator:
-[Load the layout on Microsoft Keyboard Layout Creator](/doc/screenshot01.png)
+![Load the layout on Microsoft Keyboard Layout Creator](/doc/screenshot01.png)
 
-[Load the layout on Microsoft Keyboard Layout Creator](/doc/screenshot02.png)
+![Load the layout on Microsoft Keyboard Layout Creator](/doc/screenshot02.png)
 
 Build binaries:
-[Build binaries](/doc/screenshot03.png)
+![Build binaries](/doc/screenshot03.png)
