@@ -45,4 +45,4 @@ Build binaries:
 ![Build binaries](/doc/screenshot03.png)
 
 
-[project_page]: https://www.aliok.com.tr/projects/2014-10-13-turkish-arabic-keyboard.html
+[project_page]: http://www.aliok.com.tr/projects/2014-10-13-turkish-arabic-keyboard.html
