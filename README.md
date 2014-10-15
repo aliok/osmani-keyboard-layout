@@ -23,8 +23,14 @@ It mimics the latin-based Turkish Q keyboard layout for Windows.
 
 **Please note that `klc` file must have Windows line endings (\r\n). Otherwise Microsoft Keyboard Layout Creator tool cannot read it.**
 
-### For more See [project page](https://www.aliok.com.tr/)
- 
+### For more See [project page][project_page]
+
+## Installation Instructions
+Download the [project zip](https://github.com/aliok/osmani-keyboard-layout/archive/master.zip) and extract it.
+
+Then install using the executable `binary/setup.exe`.
+
+**For more See [project page][project_page]**
  
 ## Development
 
@@ -35,3 +41,6 @@ Load the layout on Microsoft Keyboard Layout Creator:
 
 Build binaries:
 ![Build binaries](/doc/screenshot03.png)
+
+
+[project_page]: https://www.aliok.com.tr/
