@@ -23,4 +23,15 @@ It mimics the latin-based Turkish Q keyboard layout for Windows.
 
 **Please note that `klc` file must have Windows line endings (\r\n). Otherwise Microsoft Keyboard Layout Creator tool cannot read it.**
 
-### For more See [project page](https://www.aliok.com.tr/) 
+### For more See [project page](https://www.aliok.com.tr/)
+ 
+ 
+## Development
+
+Load the layout on Microsoft Keyboard Layout Creator:
+[Load the layout on Microsoft Keyboard Layout Creator](/doc/screenshot01.png)
+
+[Load the layout on Microsoft Keyboard Layout Creator](/doc/screenshot02.png)
+
+Build binaries:
+[Build binaries](/doc/screenshot03.png)
