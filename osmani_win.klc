@@ -1,0 +1,206 @@
+// Copyright [2014] [Ali Ok]
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+//
+//
+// Please note that file must have Windows line endings (\r\n). Otherwise
+// Microsoft Keyboard Layout Creator tool cannot read it.
+// see .gitattributes file for that!
+// see https://help.github.com/articles/dealing-with-line-endings/
+//
+KBD	Osmani	"Turkish Ottoman"
+
+COPYRIGHT	"(c) 2014 Ali Ok"
+
+COMPANY	"Ali Ok"
+
+LOCALENAME	"tr-TR"
+
+LOCALEID	"0000041f"
+
+VERSION	1.0
+
+SHIFTSTATE
+
+0	//Column 4
+1	//Column 5 : Shft
+2	//Column 6 :       Ctrl
+6	//Column 7 :       Ctrl Alt
+7	//Column 8 : Shft  Ctrl Alt
+
+LAYOUT		;an extra '@' at the end is a dead key
+
+//SC	VK_		Cap	0	1	2	6	7
+//--	----		----	----	----	----	----	----
+
+02	1		SGCap	0661	0021	-1	064e	0638		// ARABIC-INDIC DIGIT ONE, EXCLAMATION MARK, <none>, ARABIC FATHA, ARABIC LETTER ZAH
+-1	-1	0	1		// DIGIT ONE
+03	2		SGCap	0662	0027	-1	064b	274a		// ARABIC-INDIC DIGIT TWO, APOSTROPHE, <none>, ARABIC FATHATAN, EIGHT TEARDROP-SPOKED PROPELLER ASTERISK
+-1	-1	0	2		// DIGIT TWO
+04	3		SGCap	0663	005e	-1	0650	00a3		// ARABIC-INDIC DIGIT THREE, CIRCUMFLEX ACCENT, <none>, ARABIC KASRA, POUND SIGN
+-1	-1	0	3		// DIGIT THREE
+05	4		SGCap	0664	002b	-1	064d	20ac		// ARABIC-INDIC DIGIT FOUR, PLUS SIGN, <none>, ARABIC KASRATAN, EURO SIGN
+-1	-1	0	4		// DIGIT FOUR
+06	5		SGCap	0665	0025	-1	064f	-1		// ARABIC-INDIC DIGIT FIVE, PERCENT SIGN, <none>, ARABIC DAMMA, <none>
+-1	-1	0	5		// DIGIT FIVE
+07	6		SGCap	0666	0026	-1	064c	-1		// ARABIC-INDIC DIGIT SIX, AMPERSAND, <none>, ARABIC DAMMATAN, <none>
+-1	-1	0	6		// DIGIT SIX
+08	7		SGCap	0667	002f	-1	0652	-1		// ARABIC-INDIC DIGIT SEVEN, SOLIDUS, <none>, ARABIC SUKUN, <none>
+-1	-1	0	7		// DIGIT SEVEN
+09	8		SGCap	0668	0028	-1	0651	-1		// ARABIC-INDIC DIGIT EIGHT, LEFT PARENTHESIS, <none>, ARABIC SHADDA, <none>
+-1	-1	0	8		// DIGIT EIGHT
+0a	9		SGCap	0669	0029	-1	-1	-1		// ARABIC-INDIC DIGIT NINE, RIGHT PARENTHESIS, <none>, <none>, <none>
+-1	-1	0	9		// DIGIT NINE
+0b	0		SGCap	0660	003d	-1	-1	-1		// ARABIC-INDIC DIGIT ZERO, EQUALS SIGN, <none>, <none>, <none>
+-1	-1	0	0		// DIGIT ZERO
+0c	OEM_MINUS	0	002a	061f	-1	-1	005f		// ASTERISK, ARABIC QUESTION MARK, <none>, <none>, LOW LINE
+0d	OEM_PLUS	0	002d	005f	-1	-1	-1		// HYPHEN-MINUS, LOW LINE, <none>, <none>, <none>
+10	Q		0	0643	06af	-1	-1	-1		// ARABIC LETTER KAF, ARABIC LETTER GAF *, <none>, <none>, <none>
+11	W		0	0648	-1	-1	-1	-1		// ARABIC LETTER WAW, <none>, <none>, <none>, <none>
+12	E		0	06d5	0627	-1	-1	-1		// ARABIC LETTER AE, ARABIC LETTER ALEF, <none>, <none>, <none>
+13	R		0	0631	-1	-1	-1	-1		// ARABIC LETTER REH, <none>, <none>, <none>, <none>
+14	T		0	062a	0629	-1	0637	06a4		// ARABIC LETTER TEH, ARABIC LETTER TEH MARBUTA, <none>, ARABIC LETTER TAH, ARABIC LETTER VEH
+15	Y		0	064a	0649	-1	-1	-1		// ARABIC LETTER YEH, ARABIC LETTER ALEF MAKSURA, <none>, <none>, <none>
+16	U		0	0648	%%	-1	-1	06d5		// ARABIC LETTER WAW, <null>, <none>, <none>, ARABIC LETTER AE
+17	I		0	0649	064a	-1	%%	-1		// ARABIC LETTER ALEF MAKSURA, ARABIC LETTER YEH, <none>, <null>, <none>
+18	O		0	0648	%%	-1	-1	-1		// ARABIC LETTER WAW, <null>, <none>, <none>, <none>
+19	P		0	067e	-1	-1	-1	-1		// ARABIC LETTER PEH, <none>, <none>, <none>, <none>
+1a	OEM_4		0	063a	-1	001b	-1	0686		// ARABIC LETTER GHAIN, <none>, ESCAPE, <none>, ARABIC LETTER TCHEH
+1b	OEM_6		0	0648	%%	001d	-1	-1		// ARABIC LETTER WAW, <null>, INFORMATION SEPARATOR THREE, <none>, <none>
+1e	A		0	0627	0622	-1	0639	-1		// ARABIC LETTER ALEF, ARABIC LETTER ALEF WITH MADDA ABOVE, <none>, ARABIC LETTER AIN, <none>
+1f	S		0	0633	0635	-1	062b	06d2		// ARABIC LETTER SEEN, ARABIC LETTER SAD, <none>, ARABIC LETTER THEH, ARABIC LETTER YEH BARREE
+20	D		0	062f	0636	-1	-1	06cc		// ARABIC LETTER DAL, ARABIC LETTER DAD, <none>, <none>, ARABIC LETTER FARSI YEH
+21	F		0	0641	-1	-1	-1	067e		// ARABIC LETTER FEH, <none>, <none>, <none>, ARABIC LETTER PEH
+22	G		0	063a	-1	-1	-1	-1		// ARABIC LETTER GHAIN, <none>, <none>, <none>, <none>
+23	H		0	0647	062d	-1	062e	-1		// ARABIC LETTER HEH, ARABIC LETTER HAH, <none>, ARABIC LETTER KHAH, <none>
+24	J		0	0698	-1	-1	0625	0679		// ARABIC LETTER JEH, <none>, <none>, ARABIC LETTER ALEF WITH HAMZA BELOW, ARABIC LETTER TTEH
+25	K		0	0642	-1	-1	0623	06ba		// ARABIC LETTER QAF, <none>, <none>, ARABIC LETTER ALEF WITH HAMZA ABOVE, ARABIC LETTER NOON GHUNNA
+26	L		0	0644	fefb	-1	-1	-1		// ARABIC LETTER LAM, ARABIC LIGATURE LAM WITH ALEF ISOLATED FORM, <none>, <none>, <none>
+27	OEM_1		0	0634	-1	-1	-1	06a9		// ARABIC LETTER SHEEN, <none>, <none>, <none>, ARABIC LETTER KEHEH
+28	OEM_7		0	0649	064a	-1	%%	2026		// ARABIC LETTER ALEF MAKSURA, ARABIC LETTER YEH, <none>, <null>, HORIZONTAL ELLIPSIS
+29	OEM_3		SGCap	0022	0027	-1	0003	0003		// QUOTATION MARK, APOSTROPHE, <none>, END OF TEXT, END OF TEXT
+-1	-1	0	0003		// END OF TEXT
+2b	OEM_5		0	002c	003b	001c	-1	-1		// COMMA, SEMICOLON, INFORMATION SEPARATOR FOUR, <none>, <none>
+2c	Z		0	0632	0638	-1	0630	-1		// ARABIC LETTER ZAIN, ARABIC LETTER ZAH, <none>, ARABIC LETTER THAL, <none>
+2d	X		0	062e	-1	-1	-1	-1		// ARABIC LETTER KHAH, <none>, <none>, <none>, <none>
+2e	C		0	062c	-1	-1	-1	0688		// ARABIC LETTER JEEM, <none>, <none>, <none>, ARABIC LETTER DDAL
+2f	V		0	0648	-1	-1	-1	0691		// ARABIC LETTER WAW, <none>, <none>, <none>, ARABIC LETTER RREH
+30	B		0	0628	-1	-1	-1	0698		// ARABIC LETTER BEH, <none>, <none>, <none>, ARABIC LETTER JEH
+31	N		0	0646	06ad	-1	0626	-1		// ARABIC LETTER NOON, ARABIC LETTER NG, <none>, ARABIC LETTER YEH WITH HAMZA ABOVE, <none>
+32	M		0	0645	-1	-1	0624	-1		// ARABIC LETTER MEEM, <none>, <none>, ARABIC LETTER WAW WITH HAMZA ABOVE, <none>
+33	OEM_COMMA	0	0648	-1	-1	0621	002c		// ARABIC LETTER WAW, <none>, <none>, ARABIC LETTER HAMZA, COMMA
+34	OEM_PERIOD	0	0686	-1	-1	-1	-1		// ARABIC LETTER TCHEH, <none>, <none>, <none>, <none>
+35	OEM_2		0	002e	003a	-1	-1	00f7		// FULL STOP, COLON, <none>, <none>, DIVISION SIGN
+39	SPACE		0	0020	0020	-1	00a0	00a0		// SPACE, SPACE, <none>, NO-BREAK SPACE, NO-BREAK SPACE
+56	OEM_102	0	003c	003e	-1	007c	-1		// LESS-THAN SIGN, GREATER-THAN SIGN, <none>, VERTICAL LINE, <none>
+53	DECIMAL	0	002e	002e	-1	-1	-1		// FULL STOP, FULL STOP, , ,
+
+LIGATURE
+
+//VK_	Mod#	Char0	Char1	Char2	Char3
+//----		----	----	----	----	----
+
+I		3	0627	064a		// ARABIC LETTER ALEF + ARABIC LETTER YEH
+O		1	0627	0648		// ARABIC LETTER ALEF + ARABIC LETTER WAW
+U		1	0627	0648		// ARABIC LETTER ALEF + ARABIC LETTER WAW
+OEM_6		1	0627	0648		// ARABIC LETTER ALEF + ARABIC LETTER WAW
+OEM_7		3	0627	064a		// ARABIC LETTER ALEF + ARABIC LETTER YEH
+
+KEYNAME
+
+01	Esc
+0e	Backspace
+0f	Tab
+1c	Enter
+1d	Ctrl
+2a	Shift
+36	"Right Shift"
+37	"Num *"
+38	Alt
+39	Space
+3a	"Caps Lock"
+3b	F1
+3c	F2
+3d	F3
+3e	F4
+3f	F5
+40	F6
+41	F7
+42	F8
+43	F9
+44	F10
+45	Pause
+46	"Scroll Lock"
+47	"Num 7"
+48	"Num 8"
+49	"Num 9"
+4a	"Num -"
+4b	"Num 4"
+4c	"Num 5"
+4d	"Num 6"
+4e	"Num +"
+4f	"Num 1"
+50	"Num 2"
+51	"Num 3"
+52	"Num 0"
+53	"Num Del"
+54	"Sys Req"
+57	F11
+58	F12
+7c	F13
+7d	F14
+7e	F15
+7f	F16
+80	F17
+81	F18
+82	F19
+83	F20
+84	F21
+85	F22
+86	F23
+87	F24
+
+KEYNAME_EXT
+
+1c	"Num Enter"
+1d	"Right Ctrl"
+35	"Num /"
+37	"Prnt Scrn"
+38	"Right Alt"
+45	"Num Lock"
+46	Break
+47	Home
+48	Up
+49	"Page Up"
+4b	Left
+4d	Right
+4f	End
+50	Down
+51	"Page Down"
+52	Insert
+53	Delete
+54	<00>
+56	Help
+5b	"Left Windows"
+5c	"Right Windows"
+5d	Application
+
+DESCRIPTIONS
+
+0409	Turkish Ottoman
+
+LANGUAGENAMES
+
+0409	Turkish (Turkey)
+
+ENDKBD
