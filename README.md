@@ -34,6 +34,8 @@ Then install using the executable `binary/setup.exe`.
  
 ## Development
 
+To compile the source, you need [Microsoft Keyboard Layout Creator](http://www.microsoft.com/en-us/download/details.aspx?id=22339).
+
 Load the layout on Microsoft Keyboard Layout Creator:
 ![Load the layout on Microsoft Keyboard Layout Creator](/doc/screenshot01.png)
 
@@ -43,4 +45,4 @@ Build binaries:
 ![Build binaries](/doc/screenshot03.png)
 
 
-[project_page]: https://www.aliok.com.tr/
+[project_page]: https://www.aliok.com.tr/projects/2014-10-13-turkish-arabic-keyboard.html
